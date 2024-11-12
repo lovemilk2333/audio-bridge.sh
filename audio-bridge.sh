@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This is free and unencumbered software released into the public domain.
 
 cmd_name="audio-bridge.sh"
 version="v1"
