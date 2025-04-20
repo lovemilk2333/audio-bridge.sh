@@ -28,7 +28,7 @@ create)
 help | --help | -h | *)
     echo "Usage: $cmd_name <Action>"
     echo "Action:"
-    echo -e "    create [dev_name]\tCreate a bridge devices via pactl (default name is \`audio-bridge\`)"
+    echo -e "    create [device-name]\tCreate a bridge devices via pactl (default name is \`audio-bridge\`)"
     # echo -e "    version\t\tShow script version, compatible --version and -v"
     echo -e "    help(default)\tShow this help message, compatible --help and -h"
     ;;
