@@ -18,7 +18,7 @@ function CreateSource {
 
 case "$1" in
 create)
-    CreateSource $2 || exit $?
+    CreateSource "$2" || exit $?
     echo "use this command to delete devices:"
     echo "pactl unload-module <ID>"
     ;;
