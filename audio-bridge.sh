@@ -5,7 +5,7 @@ cmd_name="audio-bridge.sh"
 # version="v0.1.0"
 
 function CreateSource {
-    if [ -z "$1" ]; then
+    if [[ -z "$1" ]]; then
         local dev_name="audio-bridge"
     else
         local dev_name="$1"
